@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 6
+    Name Char (100) ;
+    Key Char (32) ;
+    AreaSqKm Decimal (19,6) ;
+    AreaSqMi Decimal (19,6) ;
+    GEOID Decimal (11,0) ;
+    GEO_ID Char (12) ;
